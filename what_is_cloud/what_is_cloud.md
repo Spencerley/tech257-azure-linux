@@ -4,6 +4,7 @@
 Imagine a vast network of interconnected servers and storage facilities spread across the globe. 
 This network, often visualized as a "cloud," provides on-demand access to various computing resources like servers, storage, databases, software, and more, all delivered over the internet. 
 Instead of managing your own physical infrastructure, you simply rent these resources from cloud providers like Amazon Web Services (AWS), Microsoft Azure, or Google Cloud Platform (GCP).
+
 ![cloud_computing.png](cloud_computing.png)
 
 ## Quick history/timeline of Cloud Computing.
@@ -39,7 +40,7 @@ There are three main categories of cloud services, each offering different level
 - Software as a Service (SaaS): Use web-based applications like email, CRM, or office productivity tools hosted by the cloud provider.
 
 ## Advantages/Disadvantages of the Cloud? Specifically for a business.
-Advantages:
+### Advantages:
 
 - Cost-effectiveness: Pay-as-you-go model eliminates upfront hardware and software costs, reducing IT expenses.
 - Scalability: Easily scale resources up or down to meet changing business demands.
@@ -47,7 +48,7 @@ Advantages:
 - Improved collaboration: Access applications and data from anywhere with an internet connection.
 - Disaster recovery: Cloud-based backup and disaster recovery solutions ensure business continuity.
 
-Disadvantages:
+### Disadvantages:
 
 - Vendor lock-in: Dependence on a specific cloud provider may make it difficult to switch later.
 - Security concerns: Data security is the responsibility of both the cloud provider and the business.
@@ -56,20 +57,20 @@ Disadvantages:
 ## What is OpEx vs CapEx?
 - OpEx (Operating Expenditure) and CapEx (Capital Expenditure) are two key terms in financial management, particularly relevant to understanding cloud computing's impact on business costs.
 
-OpEx: These are ongoing costs associated with the day-to-day operations of running and maintaining IT infrastructure. 
+### OpEx: These are ongoing costs associated with the day-to-day operations of running and maintaining IT infrastructure. 
 - Examples include:
   - Cloud service fees (compute, storage, software)
   - Salaries for IT staff 
   - Internet connectivity costs 
   - Electricity for on-premises data centers
 
-CapEx: These are upfront costs associated with acquiring and deploying IT hardware and software. 
+### CapEx: These are upfront costs associated with acquiring and deploying IT hardware and software. 
 - Examples include:
   - Purchasing servers, storage, and networking equipment
   - Software licenses (perpetual licenses)
   - Building or upgrading data centers
 
-Cloud computing generally shifts costs from CapEx to OpEx. Instead of investing in upfront hardware and software, businesses pay for cloud services as they use them. 
+### Cloud computing generally shifts costs from CapEx to OpEx. Instead of investing in upfront hardware and software, businesses pay for cloud services as they use them. 
 - This can result in:
   - Reduced upfront costs: Businesses don't need large capital investments in IT infrastructure.
   - Improved cash flow: Pay-as-you-go cloud model avoids large upfront expenditures.
