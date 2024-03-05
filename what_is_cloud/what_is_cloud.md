@@ -1,9 +1,10 @@
 # What is Cloud?
 
-## What is Cloud Computing? If you can find a diagram to explain it would be good.
+## What is Cloud Computing?
 Imagine a vast network of interconnected servers and storage facilities spread across the globe. 
 This network, often visualized as a "cloud," provides on-demand access to various computing resources like servers, storage, databases, software, and more, all delivered over the internet. 
 Instead of managing your own physical infrastructure, you simply rent these resources from cloud providers like Amazon Web Services (AWS), Microsoft Azure, or Google Cloud Platform (GCP).
+![cloud_computing.png](cloud_computing.png)
 
 ## Quick history/timeline of Cloud Computing.
 - 1960s: Mainframe computing emerges, with centralized and expensive systems accessible to multiple users through terminals.
