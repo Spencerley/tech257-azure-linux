@@ -77,11 +77,13 @@ There are three main categories of cloud services, each offering different level
   - Increased flexibility: Businesses can easily scale their cloud resources up or down to meet changing needs, avoiding being locked into fixed hardware capacity.
   - However, it's crucial to remember that cloud services also incur ongoing OpEx costs in the form of subscription fees or usage-based charges. It's essential to carefully evaluate both OpEx and CapEx when making decisions about cloud adoption to ensure it aligns with your business's budget and long-term goals.
 
-## Marketshare - What is the breakdown? Add a diagram to help understand marketshare trends.
+## Marketshare - What is the breakdown?
 - Amazon Web Services (AWS): The dominant player with a market share of approximately 32%, known for its breadth of services, reliability, and mature offerings.
 - Microsoft Azure: Holding a share of around 22%, popular for its strong integration with Microsoft products and hybrid cloud capabilities.
 - Google Cloud Platform (GCP): Capturing about 11% of the market, recognized for its AI and machine learning expertise, competitive pricing, and focus on open-source technologies.
 - Other providers: Alibaba Cloud, IBM Cloud, and others share the remaining market share, catering to specific regional or niche needs.
+
+![cloud_market_share.jpeg](cloud_market_share.jpeg)
 
 ## What are the 3 largest Cloud providers known for (What makes them popular?)
 1. AWS:
