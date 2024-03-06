@@ -4,6 +4,15 @@
 
 ![Azure diagram.jpg](Azure%20diagram.jpg)
 
+### A Virtual Machine (VM) is a software emulation of a physical computer that runs an operating system and applications, just like a physical computer. A hypervisor manages VMs by allocating physical resources (like CPU, memory, and storage) to each VM.
+
+- Components:
+    - Virtual CPU (vCPU): Simulated CPU that performs computation tasks for the VM.
+    - Virtual Memory: Allocation of physical memory from the host to the VM. 
+    - Virtual Disk: A file or set of files that appear as a physical disk drive to the VM. 
+    - Virtual Network Interface: Enables the VM to connect to a network as if it were a physical computer. 
+    - Isolation: Each VM operates in an isolated environment, unaware of other VMs on the same host, ensuring security and stability.
+
 ## How to login to Azure
 
 - Go to portal.azure.com/ and enter your credentials
