@@ -58,7 +58,7 @@
     - Enter path to private key,
     - Copy command into bash `ssh -i ~/.ssh/<private-key> [<username>@<ip.address>]`,
     - Yes to continue connecting
-    - 
+
 ![create_vm_7.png](create_vm_7.png)
 
 ## How to delete to a VM
