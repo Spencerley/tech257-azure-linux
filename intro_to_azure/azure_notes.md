@@ -47,7 +47,7 @@
 
 - Tags
     - Owner : Spencer
-    - 
+
 ![create_vm_6.png](create_vm_6.png)
 
 ## How to SSH into your VM
