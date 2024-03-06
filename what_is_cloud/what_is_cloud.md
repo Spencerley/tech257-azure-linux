@@ -85,20 +85,24 @@ There are three main categories of cloud services, each offering different level
 
 ![cloud_market_share.jpeg](cloud_market_share.jpeg)
 
-## What are the 3 largest Cloud providers known for (What makes them popular?)
+## What are the 3 largest Cloud providers known for?
 1. AWS:
    - Offers the most extensive range of services, attracting diverse customers.
    - Known for its high reliability and mature service offerings.
+   - Businesses can find almost any service they need for their cloud journey from basic to advanced.
    - Can be complex for beginners due to its vastness.
 
 2. Azure:
    - Tightly integrated with Microsoft products, streamlining migration for existing users.
    - Strong capabilities in hybrid cloud environments, ideal for businesses with on-premises infrastructure.
+   - Migration made easy for those that already work within the Microsoft ecosystem.
    - May not be the most cost-effective option for all needs.
 
 3. GCP:
    - Competitive pricing, attracting cost-conscious businesses.
    - Leading expertise in AI and machine learning, ideal for data-driven organizations.
+   - Cost-efficient without compromising on quality.
+   - Great for data driven orgs deeking AI and ML capabilities.
    - Smaller service portfolio compared to AWS and Azure.
 
 ## What are the 4 pillars of DevOps? How do they link into the Cloud?
@@ -125,3 +129,47 @@ There are three main categories of cloud services, each offering different level
 - Software licenses: You pay for the subscription fees of cloud-based software services. 
 - Remember, cloud pricing models can vary based on the provider, service type, and usage patterns. 
 - It's essential to carefully review pricing structures before committing to a cloud service.
+
+## Additional notes
+Is it Cloud? Is it:
+
+![is_it_cloud.png](is_it_cloud.png)
+
+![types_of_cloud.png](types_of_cloud.png)
+
+- Also Multi vs Hybrid Cloud:
+    - **Hybrid Cloud:**
+        - **Combines:** **Public and private clouds.** This means it integrates an organization's on-premises infrastructure (private cloud) with resources from a public cloud provider like AWS, Azure, or GCP.
+        - **Management:** Hybrid clouds usually **act as a single entity**, even though they use different infrastructure. This typically involves specialized tools and expertise to manage the entire ecosystem effectively.
+        - **Use cases:** Ideal for organizations with **sensitive data or specific compliance requirements** that need to be kept on-premises while leveraging the scalability and cost-effectiveness of the public cloud for other workloads.
+    - **Multi-Cloud:**
+        - **Combines:** **Multiple public clouds** from different vendors (e.g., AWS, Azure, GCP). An organization can choose different providers based on specific needs and pricing structures.
+        - **Management:** Each individual cloud environment in a multi-cloud setup is typically **managed separately**. This requires diverse skillsets and strategies to manage different cloud platforms effectively.
+        - **Use cases:** Ideal for organizations seeking **greater flexibility, vendor lock-in avoidance, or best-in-breed services** from different providers. It also allows for taking advantage of specific features or pricing offered by individual vendors.
+
+![pizza_as_a_service.png](pizza_as_a_service.png)
+
+- The more a vendor manages the less control you have.
+
+![pizza_as_a_service.png](pizza_as_a_service.png)
+
+Can get predictions of costs over 2 years from Azure (have to input a lot of data to get though):
+
+![two_year_savings.png](two_year_savings.png)
+
+- Redundancy in Cloud:
+    - Having back-ups of things for disaster recovery.
+    - Build back-up based on levels of importance and levels of impact on the business - Live website for example or service being paid for, every secod it goes down you’re losing money and reputation.
+- SLA:
+    - Guaranteed level of service and if it doen’t reach this then you can get money back.
+    - Helps to give confidence of a certain level of availability of the service.
+    
+    ![market_share.png](market_share.png)
+    
+- Microsoft gaining traction, why?
+    - Integration with other Microsoft services
+    - Why have a lot of different ecosystems when you could just use one.
+
+![pillars.png](pillars.png)
+
+![business_model.png](business_model.png)
