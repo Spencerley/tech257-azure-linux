@@ -17,7 +17,8 @@
     - `sleep 3`
     - Can use if you need the terminal to wait for something before running the rest of the script
     - `sleep 5000 &` - Sleep in the background
-        - `kill <PID>` to end this process (or any other) **(YOU NEED TO KNOW WHAT YOU'RE KILLING)**
+- Killing / Ending Processes
+  -  `kill <PID>` to end this process (or any other) **(YOU NEED TO KNOW WHAT YOU'RE KILLING)**
         - 64 levels of kill - default is to terminate (gracefully try to shut it down), won’t usually create a Zombie. Medium level of forcefulness.
         - If you absolutely have to kill: brute force kill - absolute last resort and the graceful kills aren’t working, you can use this as a **last** option. `kill -9 <PID>`
         - Most mild is `kill -1 <PID>`
