@@ -22,20 +22,20 @@
 - bash = Bourne Again SHell
 - There other shells available
 
-![shell_types.png](shell_types.png)
+![shell_types.png](./images/shell_types.png)
 
 - To see previously written commands:
-![history_command.png](history_command.png)
+![history_command.png](./images/history_command.png)
 
 - To run a previous command use: `!<number>`
-![prev_command.png](prev_command.png)
+![prev_command.png](./images/prev_command.png)
 
 - . is current directory, .. is parent directory
     - They are links to paths
     - To get back to home directory `cd ~` or `cd`
 
 - To see more details of files and folders run  `ls -la`
-![details.png](details.png)
+![details.png](./images/details.png)
     
     - '-' at beginning signifies a file a 'd' at the beginning signifies a directory
 
@@ -43,58 +43,58 @@
 - File extentions:
     - curl is used to transfer data and to download files
     - to download  --output <filename>
-![Alt text](curl.png)
+![Alt text](./images/curl.png)
     - To get info on a file - `file <filename>`
     - `cp <filename> <newname>` to copy and create
     - Changing name doesn’t change file type
     - Rename files - `mv <currentfilename> <newfilename>` 
-![Alt text](rename_files.png)
+![Alt text](./images/rename_files.png)
     - Remove files `rm <filetoremove>`
-![Alt text](remove_files.png)
+![Alt text](./images/remove_files.png)
 
 ## Renaming files and Directories pt 2.
 - Is Linux case sensitive? Yes!
 - Make new directory: `mkdir <filename>` no spacing in directory names or it will make multiple directories where the spaces are
-![Alt text](mk_dir.png)
-![Alt text](mk_dir2.png)
+![Alt text](./images/mk_dir.png)
+![Alt text](./images/mk_dir2.png)
 - `mkdir "my pictures"`
 - cd into it - can escape a space with `\`
-![Alt text](cd_into.png)
-![Alt text](alt_cd_into.png)
+![Alt text](./images/cd_into.png)
+![Alt text](./images/alt_cd_into.png)
 - To remove directories
-![Alt text](remove_dir.png)
+![Alt text](./images/remove_dir.png)
 - Make an empty file `touch <filename>`
-![Alt text](empty_file.png)
+![Alt text](./images/empty_file.png)
 - To edit the file `nano <filename>`
   - enter text
   - ctrl s to save
   - ctrl x to exit
-![Alt text](nano.png)
+![Alt text](./images/nano.png)
 - To get first 2 lines use `head -2 <filename>`
 - To get bottom 2 lines use `tail -2 <filename>`
 - Get line numbers with `nl <filename>`
 - To pipe from one command to the next `|`
     - i.e. `cat <filename> | grep chicken`
-![Alt text](piping.png)
+![Alt text](./images/piping.png)
 
 ## Installing a Package
 - tree:
-![Alt text](tree.png)
+![Alt text](./images/tree.png)
     - to install `sudo apt install tree`
 - If you don’t use `sudo` it doesn’t know you’re root (or superuser)
     - superuser do
-![Alt text](superuser.png)
+![Alt text](./images/superuser.png)
 - To get up to date list of available packages `sudo apt update -y`
     - Never run upgrade `apt list --upgradeable` in a dev environment without checking and testing.
     - To upgrade: `sudo apt upgrade -y`
     - It might still ask you questions when you upgrade.
     - If you need to acces a file or folder that you don’t normally have access to you have to login temporarily login as the root user: `sudo su`
     - to get back to admin cd back to main and then `exit`
-![Alt text](su.png)
+![Alt text](./images/su.png)
 - Linux thinks of everything as files so be careful with error messages saying file.
   
 ### Create new directories and move jokes
-![Alt text](tree_move_files.png)
+![Alt text](./images/tree_move_files.png)
 - To move a file `mv <filename> <foldername>`
 - To move it back without changing directory `mv <filepath> .`
 - To move it from current into a dir within a dir `mv <filename> <dir>/<dir>`
@@ -103,11 +103,11 @@
 - Move file up one dir while within the directory of the file: `mv <filename> ..` 
 
 ### Different ways to move files:
-![Alt text](move_files.png)
+![Alt text](./images/move_files.png)
 - / double tab to get:
-![Alt text](double_tab.png)
+![Alt text](./images/double_tab.png)
 - Find the folder then tab to get the next set
-![Alt text](tab_cntd.png)
+![Alt text](./images/tab_cntd.png)
 - Backup bad joke to home directory (back-up can just mean move the folder / file)
     - Practice copying files to new locations.
     - `mv <filename> ..`
@@ -115,7 +115,7 @@
 - Remove funny-stuff folder
     - `rm -r <dir>`
     - Always be careful because it may not check with you!
-![Alt text](more_removal.png)
+![Alt text](./images/more_removal.png)
 
 ## Scripting
 - Like python these run from top to bottom
@@ -124,18 +124,18 @@
 - Create a shell file - `touch prov-nginx.sh`
 - nano into it `nano <filename>`
 - To make it bash: `#!/bin/bash`
-![Alt text](bash_script.png)
+![Alt text](./images/bash_script.png)
 - Install nginx with `sudo apt **install** -y nginx`
 - When using system processes use `systemctl`
-![Alt text](systemctrl.png)
+![Alt text](./images/systemctrl.png)
 - `sudo systemctl is-enabled nginx`
 - Advancing our script:
-![Alt text](scripting.png)
+![Alt text](./images/scripting.png)
 - To run the script you have to provide the full path `./prov-nginx.sh` - this has a permissions issue… see below:
-![Alt text](permissions_issue.png)
+![Alt text](./images/permissions_issue.png)
 - In order to run the shell script you’re missing the execute permission so we need to add an execute permission:
     - `chmod +x prov-nginx.sh`
-![Alt text](chmod.png)
+![Alt text](./images/chmod.png)
 
 ## Environment Variables:
 - To print all env vars: `printenv`
@@ -146,7 +146,7 @@
   - If you exit then log in it won’t be there, it’s not persistent… yet
 - We’re going to modify a config file (.bashrc) so that everytime we spin up the VM it will load / create the env file
     - `nano .bashrc`
-![Alt text](runenvbask.png)
+![Alt text](./images/runenvbask.png)
 - To get it to work in current session without exiting:
 - `source .bashrc`
 - **Never hardcode credentials**
