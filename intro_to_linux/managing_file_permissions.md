@@ -9,6 +9,13 @@
     - [What permissions will you have on this file?](#what-permissions-will-you-have-on-this-file)
   - [Here is one line from the ls -l.](#here-is-one-line-from-the-ls--l)
     - [Summary:](#summary)
+- [Linux - Research managing file permissions using numeric values](#linux---research-managing-file-permissions-using-numeric-values)
+  - [What numeric values are assigned to each permission?](#what-numeric-values-are-assigned-to-each-permission)
+  - [Often, a file or directory's mode/permissions are represented by 3 numbers. What do you think 644 would mean?](#often-a-file-or-directorys-modepermissions-are-represented-by-3-numbers-what-do-you-think-644-would-mean)
+- [Linux - Research changing file permissions](#linux---research-changing-file-permissions)
+  - [What command changes file permissions?](#what-command-changes-file-permissions)
+  - [To change permissions on a file what must the end user be? (2 answers)](#to-change-permissions-on-a-file-what-must-the-end-user-be-2-answers)
+  - [Give examples of some different ways/syntaxes to set permissions on a new file (named testfile.txt) to:](#give-examples-of-some-different-wayssyntaxes-to-set-permissions-on-a-new-file-named-testfiletxt-to)
 
 
 ## Does being the owner of a file mean you have full permissions on that file? Explain.
@@ -50,3 +57,51 @@ tcboony: This is the username of the file owner.
 - The owner (tcboony) has full permissions on keeprunning.sh.
 - The staff group can read and execute the file, but cannot modify it.
 - Others have no access to the file.
+
+# Linux - Research managing file permissions using numeric values
+## What numeric values are assigned to each permission?
+- Read = 4 Write = 2 Execute = 1
+
+- What can you with the values assign read + write permissions?
+  - 6
+
+- What value would assign read, write and execute permissions?
+  - 7
+
+- What value would assign read and execute permissions?
+  - 5
+
+## Often, a file or directory's mode/permissions are represented by 3 numbers. What do you think 644 would mean?
+- Each number represents the permissions assigned to each entity
+
+- 6 = Read and Write --> User
+- 4 = Read --> Group
+- 4 = Read --> Other
+
+# Linux - Research changing file permissions
+
+## What command changes file permissions?
+- chmod
+
+## To change permissions on a file what must the end user be? (2 answers)
+- The owner of that file and have the Write permission
+
+## Give examples of some different ways/syntaxes to set permissions on a new file (named testfile.txt) to:
+1. Set User to read, Group to read + write + execute, and Other to read and write only:
+
+- chmod u=r,g=rwx,o=rw testfile.txt
+- chmod 764 testfile.txt
+  
+2. Add execute permissions (to all entities)
+
+- chmod u=x,g=x,o=x testfile.txt
+- chmod +x testfile.txt
+- chmod a+x testfile.txt
+
+3. Take write permissions away from Group
+
+- chmod g-w testfile.txt
+
+4. Use numeric values to give read + write access to User, read access to Group, and no access to Other.
+
+- chmod 640 testfile.txt
