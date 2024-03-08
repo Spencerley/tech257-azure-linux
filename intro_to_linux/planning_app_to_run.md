@@ -1,4 +1,4 @@
-# Requirement / stepps to deploy Sparta Test app
+# Requirement / Steps to deploy Sparta Test app
 - Manually - working commands without user input
 - Slowly automate with a bash script - install + use 'pm2'
 
