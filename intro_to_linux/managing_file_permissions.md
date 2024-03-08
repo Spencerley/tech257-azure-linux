@@ -39,7 +39,7 @@ Work out everything you can about permissions on this file or directory.
 - -: This indicates a regular file (not a directory, symbolic link, etc.).
 - rwx: The owner (user tcboony) has read, write, and execute permissions.
 - r-x: The group (staff) has read and execute permissions, but no write permission.
-- --: Others (users not in the owner's group) have no permissions (cannot read, write, or execute).
+- r--: Others (users not in the owner's group) have read permissions (but cannot write, or execute).
 - 1: This is the number of hard links to the file.
 tcboony: This is the username of the file owner.
 - staff: This is the name of the group the file belongs to.
