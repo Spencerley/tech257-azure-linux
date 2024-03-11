@@ -34,7 +34,7 @@ sudo apt upgrade -y
 # nginx -
 sudo apt install nginx -y
 # node -
-curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash - &&\ sudo apt-get install -y nodejs
+curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash - &&\sudo apt-get install -y nodejs
 # pm 2
 sudo npm install pm2 -g
 # repo -
