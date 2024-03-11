@@ -25,6 +25,7 @@ sudo apt-get install -y nodejs`
 scp ~/Downloads\nodejs20-sparta-test-app\app azureuser@172.167.178.232:/home/adminuser/Documents/app
 
 
+#!/bin/bash 
 
 # update -
 sudo apt update -y
