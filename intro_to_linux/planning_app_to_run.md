@@ -26,6 +26,7 @@ scp ~/Downloads\nodejs20-sparta-test-app\app azureuser@172.167.178.232:/home/adm
 
 - add echos to your script to see which point it fails at - `echo "string here"`
 
+# Reverse Proxy included here
 
 # get to nginx
 cat ../../etc/nginx/sites-available/default
