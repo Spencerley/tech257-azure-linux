@@ -27,24 +27,47 @@ scp ~/Downloads\nodejs20-sparta-test-app\app azureuser@172.167.178.232:/home/adm
 - add echos to your script to see which point it fails at - `echo "string here"`
 
 
+# get to nginx
+cat ../../etc/nginx/sites-available/default
+
+# line to add
+proxy_pass
+http://127.0.0.1:3000;
+
+sudo sed -i 's@try_files $uri $uri/ =404;@proxy_pass http://127.0.0.1:3000;@g' ../../etc/nginx/sites-available/default
+
+# line to replace
+try_files $uri $uri/ =404;
+
 #!/bin/bash 
 
 # update -
 sudo apt update -y
+
 # upgrade -
 sudo apt upgrade -y
+
 # nginx -
 sudo apt install nginx -y
+
+# change line in default
+sudo sed -i 's@try_files $uri $uri/ =404;@proxy_pass http://127.0.0.1:3000;@g' ../../etc/nginx/sites-available/default
+
+# restart nginx
+sudo systemctl restart nginx
+
 # node -
 curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash - && sudo apt-get install -y nodejs
+
 # pm 2
 sudo npm install pm2 -g
+
 # repo -
 git clone https://github.com/Spencerley/tech257-sparta-app.git
+
 # cd into -
-cd tech257-sparta-app
-# cd again -
-cd app
+ cd ../../../home/adminuser/tech257-sparta-app/app
+
 # npm -
 npm install
 
