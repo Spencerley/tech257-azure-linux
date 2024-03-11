@@ -24,6 +24,8 @@ sudo apt-get install -y nodejs`
 
 scp ~/Downloads\nodejs20-sparta-test-app\app azureuser@172.167.178.232:/home/adminuser/Documents/app
 
+- add echos to your script to see which point it fails at - `echo "string here"`
+
 
 #!/bin/bash 
 
