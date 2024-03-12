@@ -3,36 +3,36 @@
 # update -
 sudo apt update -y
 
-# upgrade -
+# upgrade to ignore user input -
 sudo DEBIAN_FRONTEND=noninteractive apt-get upgrade -y
 
 # nginx -
 sudo apt install nginx -y
 
-# for user data
+# reverse proxy with user data path -
 sudo sed -i 's@try_files $uri $uri/ =404;@proxy_pass http://127.0.0.1:3000;@g' /etc/nginx/sites-available/default
 
-# restart nginx
+# restart and enable nginx -
 sudo systemctl restart nginx
 sudo systemctl enable nginx
 
-# node -
+# install node -
 curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash - && sudo apt-get install -y nodejs
 
-# pm 2
+# install pm2 -
 sudo npm install pm2 -g
 
-# repo -
+# clode down the repo -
 git clone https://github.com/Spencerley/tech257-sparta-app.git
 
-# for user data
+# path to app for user data -
  cd /tech257-sparta-app/app
 
 # npm -
 npm install
 
-# stop pm2
+# stop pm2 -
 pm2 stop app
 
-# run -
+# run pm2 -
 pm2 start app.js
