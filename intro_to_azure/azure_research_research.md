@@ -30,6 +30,8 @@
   - Subscriptions: Represent a billing unit for your Azure usage. You can have multiple subscriptions for different projects or cost centers.
   - Management groups: Optionally organize multiple subscriptions for centralized governance and policy application across your Azure environment.
 
+![resource groups](images/resource-structure.png)
+
 ## What types/categories of services does Azure provide?
 
 ### Azure offers a diverse range of services categorized into different groups:
