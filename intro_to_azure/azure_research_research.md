@@ -54,6 +54,7 @@
 - These are the core concepts of Azure. 
 - Remember, this is just the beginning. 
 - As you explore further, you'll discover the vast potential of Azure and its services in building, deploying, and managing your cloud-based solutions.
+- When to use it: Before you create anything in it! When you know all your plans and scope as you'll need to know a lot of information to get an accurate reading. When you know what you need or you know what your budget is.
 
 <!-- "In the README.md, add + personalise the content with your own comments, "take-aways", things you've learnt. Supplement the content with extra research where you feel your understanding is weaker.
 Understand the content so you are ready to be asked interview questions on the topic" -->
