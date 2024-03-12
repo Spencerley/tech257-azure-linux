@@ -5,6 +5,7 @@
 - Imagine a vast network of servers, storage, databases, and other resources readily available over the internet, accessible on demand - that's the essence of cloud computing. 
 - Microsoft Azure is a prominent cloud computing platform offering a plethora of these resources and services. 
 - Scalability reliability, security and global reach. Great hybrid capability too.
+- Most large enterprise work with Microsoft so allows better and easier integration with their other products and ecosystem.
 - Think of it as a digital marketplace where you can rent and utilize pre-configured solutions or build your own from scratch, eliminating the need for physical infrastructure management.
 
 ## Azure regions and availability zones: how they work and include up-to-date diagrams to help
