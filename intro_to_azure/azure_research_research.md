@@ -17,6 +17,7 @@
 ### Availability Zones: 
 
 - Within a region, Azure further divides its data centers into availability zones. These zones are physically separated and interconnected with high-bandwidth, low-latency connections. This redundancy helps ensure your applications remain operational even if one zone experiences an outage.
+- Independent cooling, networking and power in each availability zone so they each should have their own back-ups but it means if one goes down you'll still be able to access your data.
 
 ![alt text](images/regions-availability-zones.png)
 
