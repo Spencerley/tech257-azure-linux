@@ -44,6 +44,7 @@
 - Artificial Intelligence: Machine learning, cognitive services, and other AI tools for building intelligent applications.
 - Web & Mobile: Tools for building and deploying web and mobile applications.
 - Data & Analytics: Services for storing, managing, and analyzing big data.
+- Azure DevOps: CI/CD, Kanban boards, Scrum etc.
 
 ## Why/when use the Azure Pricing Calculator?
 
@@ -55,5 +56,5 @@
 - Remember, this is just the beginning. 
 - As you explore further, you'll discover the vast potential of Azure and its services in building, deploying, and managing your cloud-based solutions.
 
-In the README.md, add + personalise the content with your own comments, "take-aways", things you've learnt. Supplement the content with extra research where you feel your understanding is weaker.
-Understand the content so you are ready to be asked interview questions on the topic
+<!-- "In the README.md, add + personalise the content with your own comments, "take-aways", things you've learnt. Supplement the content with extra research where you feel your understanding is weaker.
+Understand the content so you are ready to be asked interview questions on the topic" -->
