@@ -6,7 +6,6 @@ sudo DEBIAN_FRONTEND=noninteractive apt-get upgrade -y
 
 # Install Mongo DB 7.0.5 (rather than just the latest version). However, you might install the latest version initially as it does work.
 # Install Mongo DB
-curl -fsSL https://www.mongodb.org/static/pgp/server-4.4.asc | sudo apt-key add -
 # Configure Mongo DB's bindIp to be 0.0.0.0 (accept connections from anywhere)
 # Make sure Mongo DB service is started + enabled
 
