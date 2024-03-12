@@ -51,7 +51,6 @@
 - The Azure Pricing Calculator is an invaluable resource for estimating the cost of using various Azure services. 
 - You can specify the resources you plan to use (e.g., VM type, storage size) and the duration of use to get a personalized cost estimate. 
 - This helps you plan your budget and choose cost-effective solutions for your needs.
-
 - These are the core concepts of Azure. 
 - Remember, this is just the beginning. 
 - As you explore further, you'll discover the vast potential of Azure and its services in building, deploying, and managing your cloud-based solutions.
