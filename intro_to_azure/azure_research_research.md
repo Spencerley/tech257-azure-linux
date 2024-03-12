@@ -25,7 +25,7 @@
 
 ### Azure resources are organized hierarchically using various components:
 
-- Resource groups: 
+- Resource groups: Can group whatever you want into a resource group or split it up depending on teams and management.
   - Group related resources (e.g., VMs, databases) for easier management and access control.
   - Subscriptions: Represent a billing unit for your Azure usage. You can have multiple subscriptions for different projects or cost centers.
   - Management groups: Optionally organize multiple subscriptions for centralized governance and policy application across your Azure environment.
