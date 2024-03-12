@@ -27,8 +27,8 @@
 
 - Resource groups: Can group whatever you want into a resource group or split it up depending on teams and management. Containers, can't put them inside of one another.
 - Group related resources (e.g., VMs, databases) for easier management and access control.
-- Subscriptions: Represent a billing unit for your Azure usage. You can have multiple subscriptions for different projects or cost centers. Different subscriptions to seperate different payments, departments with different Azure budgets, seperate payment accounts.
-- Management groups: Optionally organize multiple subscriptions for centralized governance and policy application across your Azure environment.
+- Subscriptions: Represent a billing unit for your Azure usage. You can have multiple subscriptions for different projects or cost centers. Different subscriptions to seperate different payments, departments with different Azure budgets, seperate payment accounts. Every subscription hads limits - number of VM's of same size you can make in one region on one subscription (50 VM's same size in same region) so may need more subscriptions to get around this.
+- Management groups: Optionally organize multiple subscriptions for centralized governance and policy application across your Azure environment. 6 levels (work like folders, can have MG inside MG). Has a root management group to look after the MG's - Azure AD Tenant (where users, groups and permissions reside). All MG's provide different scopes and every scope is a level at which you can set policies and access.
 
 ![resource groups](images/resource-structure.png)
 
