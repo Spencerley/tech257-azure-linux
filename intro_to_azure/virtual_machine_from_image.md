@@ -31,3 +31,8 @@
 ## Create VM from image
 
 1. Follow the same steps to create a virtual machine except when you select image use your newly created image.
+
+
+## Once the image has been deleted
+![alt text](images/image_deleted.png)
+- Because the image has been deleted it is no longer available to select as an image for our new virtual machine and so you get the errors: Image not available, image not valid for this location, client does not have permission to read this image.

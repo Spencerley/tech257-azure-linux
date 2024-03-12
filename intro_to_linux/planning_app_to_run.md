@@ -56,6 +56,7 @@ sudo sed -i 's@try_files $uri $uri/ =404;@proxy_pass http://127.0.0.1:3000;@g' .
 
 # restart nginx
 sudo systemctl restart nginx
+sudo systemctl enable nginx
 
 # node -
 curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash - && sudo apt-get install -y nodejs
