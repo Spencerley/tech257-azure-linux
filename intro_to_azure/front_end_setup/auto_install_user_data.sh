@@ -10,6 +10,9 @@ sudo apt update -y
 # upgrade to ignore user input -
 sudo DEBIAN_FRONTEND=noninteractive apt-get upgrade -y
 
+# DB_HOST
+export DB_HOST=mongodb://10.0.3.4:27017/posts
+
 # nginx -
 sudo apt install nginx -y
 
