@@ -1,4 +1,6 @@
-# Create your VM from an image which has all the dependencies and files you wish to run then run this in User Data. This will allow you to run the same script on multiple VMs without having to manually install the dependencies and files each time.
+# Create your VM from an image which has all the dependencies and files you wish to run then run this in User Data. 
+# This will allow you to run the same script on multiple VMs without having to manually install the dependencies and files each time.
+# This is the quickest way to get your app up and running on a fresh VM as there is only a small part of the script that needs to run.
 
 #!/bin/bash
 

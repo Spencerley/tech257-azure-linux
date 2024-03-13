@@ -1,4 +1,6 @@
-# Create a script to run in User Data on a fresh VM. This script will be used in the User Data section of the VM creation process. This will allow you to run the same script on multiple VMs without having to manually install the dependencies and files each time.
+# Create a script to run in User Data on a fresh VM. 
+# This script will be used in the User Data section of the VM creation process. 
+# This will allow you to run the same script on multiple VMs without having to manually install the dependencies and files each time.
 
 #!/bin/bash 
 
