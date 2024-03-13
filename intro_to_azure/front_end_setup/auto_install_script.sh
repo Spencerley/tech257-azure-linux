@@ -1,3 +1,5 @@
+# Script to add all the files to a fresh VM and run the app. This script will be used in the Shell to run the app on a fresh VM.
+
 #!/bin/bash 
 
 # update -
