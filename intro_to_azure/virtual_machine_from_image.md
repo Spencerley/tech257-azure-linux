@@ -36,3 +36,9 @@
 ## Once the image has been deleted
 ![alt text](images/image_deleted.png)
 - Because the image has been deleted it is no longer available to select as an image for our new virtual machine and so you get the errors: Image not available, image not valid for this location, client does not have permission to read this image.
+
+
+## User Data
+- User data is a script that runs when a VM is first started. 
+- This method is used to automate the setup process, including installing software, applying configurations, or running scripts without manual intervention immediately after the VM boots for the first time.
+- When we use User Data tjhe script is run before we've ssh'd into the VM which means that the script is executed without interactive feedback.
