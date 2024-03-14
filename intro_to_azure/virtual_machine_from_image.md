@@ -42,4 +42,4 @@
 - User data is a script that runs when a VM is first started. 
 - This method is used to automate the setup process, including installing software, applying configurations, or running scripts without manual intervention immediately after the VM boots for the first time.
 - When we use User Data the script is run before we've ssh'd into the VM which means that the script is executed without interactive feedback.
-- See the three scripts in Front-end setup folder;one for running in the VM, one for User Data on a fresh VM and one for User Data on an Image VM
+- See the three scripts in Front-end setup folder;one for running in the VM, one for User Data on a fresh VM and one for User Data on an Image VM [From image link to script](front_end_setup/auto_install_from_image.sh)
