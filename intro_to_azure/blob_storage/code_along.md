@@ -102,3 +102,12 @@
     ![alt text](../images/container_public_two.png)
 
 - 15 second sleep command to make sure the script works consistiently after changing the security of the container and blob
+
+- Delete Storage Account:
+    - Specific:
+        - `az storage account delete -n tech257spencerstorage -g tech257`
+    - General:
+        - `az storage account delete -n <MyStorageAccount> -g <MyResourceGroup>`
+- sed to add a line within the body div in /tech257-sparta-app/app/views/index.ejs `<img src =”URL of Blob” />`
+- Must put everything back to the way it was before then delete the storage account so that there isn’t a broke image tag on our site.
+    - Always consider the users perspective.
