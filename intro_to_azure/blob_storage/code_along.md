@@ -4,7 +4,7 @@
     - However if you upload a folder with files then it will register that and keep the files withing the folder.
     - Not designed for this though more of a container to just dump info into
 
-![alt text](../images/blob_diagram.png)
+    ![alt text](../images/blob_diagram.png)
 
 - Cheapest version of blob storage has redundancies, 3 copies of your data LRS (Local Redundant Storage) within the same datacentre.
 - Redundancy built it.
@@ -98,7 +98,7 @@
     - ![alt text](../images/storage_public.png)
     
 - Make the Container public:
-  - ![alt text](../images/container_public_one.png)
-  - ![alt text](../images/container_public_two.png)
+   ![alt text](../images/container_public_one.png)
+   ![alt text](../images/container_public_two.png)
 
 - 15 second sleep command to make sure the script works consistiently after changing the security of the container and blob
