@@ -95,10 +95,10 @@
         --output table \
         --auth-mode login`
 - Make the Storage account public:
-    - ![alt text](../images/storage_public.png)
+    ![alt text](../images/storage_public.png)
     
 - Make the Container public:
-   ![alt text](../images/container_public_one.png)
-   ![alt text](../images/container_public_two.png)
+    ![alt text](../images/container_public_one.png)
+    ![alt text](../images/container_public_two.png)
 
 - 15 second sleep command to make sure the script works consistiently after changing the security of the container and blob
