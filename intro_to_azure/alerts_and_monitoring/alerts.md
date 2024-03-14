@@ -16,5 +16,5 @@
     ![alt text](images/details.png)
     
 - Test the alert:
-- ![alt text](images/alert_on_azure.png)
-- ![alt text](images/alert_email.png)
+![alt text](images/alert_on_azure.png)
+![alt text](images/alert_email.png)
