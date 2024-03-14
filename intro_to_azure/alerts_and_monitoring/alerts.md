@@ -1,6 +1,6 @@
 # Auto-Scaling
 
-- The more manually that you have to mnitor alerts and handle alerts the worse you're probably doing it
+- The more manually that you have to monitor alerts and handle alerts the worse you're probably doing it
 
 ![alt text](images/best_and_worst.png)
 
