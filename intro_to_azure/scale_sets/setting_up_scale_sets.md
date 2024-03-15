@@ -58,6 +58,8 @@
 ## To make an unhealthy instance
 - Have you tried turning it off an on again?
 - Select the instance you want to make unhealthy and click restart.
+![alt text](images/unhealthy.png)
+![alt text](images/unhealty_2.png)
 
 ## To SSH into an instance
 - `ssh -i ~/.ssh/spencer-az-key -p 50000 adminuser@4.159.36.189`
