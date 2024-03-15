@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd tech257-sparta-app/app/views
+cd /tech257-sparta-app/app/views
 
 rm index.ejs
 
