@@ -9,6 +9,13 @@
     3. Put this file onto blob storage.
     4. Can then be referenced to create a Custom Image.
 
+![alt text](images/VMSS.png)
+
+- High availability - put them in different availability zones.
+- If it created a 4th it would go back into Zone 1, then 2 then 3, then 1 etc.
+- All getting created in our public subnet.
+- Load balancer required so that users get sent to certain machines.
+- Setting up a probe to check we get the right response from each VM if probe doesn’t get status code 200 the machine will be marked as unhealthy then the load balancer will stop sending traffic to that one. If unhealthy for 10 minutes the vm is deleted and another one created.
 
 ## Basics
 - Set your subcription and resource group.
