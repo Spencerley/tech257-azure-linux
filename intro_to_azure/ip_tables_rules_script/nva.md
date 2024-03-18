@@ -13,7 +13,7 @@
 - In Linux we also need to tell it that we want to do IP forwarding and tell it that its enabled.
 - NVA will forward on everything once both are enabled so we need to create fome rules to decide which ones its forwarding on. Use IP tables rules
 
-![alt text](images/security_diagram.png)
+
 
 ## Set up VNet:
 ![alt text](images/create_vnet.png)
@@ -70,6 +70,6 @@
     ![alt text](images/ip_forwarding_3.png)
   - `sudo sysctl -p` to restart file
 - Now set up the filters only specific traffic allowed through:
-    - Run this Script: [Script form Ramon](ip_rules.sh)
+    - Run this Script: [Script from Ramon](ip_rules.sh)
     - Controlling the specific route that packets need to take to go from the public subnet to the private subnet.
     - This is the type of architecture that is reccomended to make things more private, in the Microsoft documentation.
