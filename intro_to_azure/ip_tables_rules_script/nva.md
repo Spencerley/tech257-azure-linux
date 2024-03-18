@@ -13,7 +13,7 @@
 - In Linux we also need to tell it that we want to do IP forwarding and tell it that its enabled.
 - NVA will forward on everything once both are enabled so we need to create fome rules to decide which ones its forwarding on. Use IP tables rules
 
-
+![alt text](images/diagram.png)
 
 ## Set up VNet:
 ![alt text](images/create_vnet.png)
