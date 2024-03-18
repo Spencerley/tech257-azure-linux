@@ -39,7 +39,7 @@
 - Include DB_HOST in user data before cding into the app folder
 - Test!
 
-## NVA(Network Virtual Applianc) VM
+## NVA(Network Virtual Appliance) VM
 - Use a clean image to setup
 - Just SSH same as DB
 - User Data to update and upgrade
